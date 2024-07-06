@@ -365,3 +365,25 @@ h2{
   width: 688px;
   margin:auto;
 }
+
+#contact{
+  padding:64px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #e1d4ff;
+}
+
+form{
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+input:hover, input:focus, input:active, input:focus-visible{
+  border: 2px solid #6F34FE !important;
+  outline: none;
+}
+input{
+  padding: 7px;
+}
