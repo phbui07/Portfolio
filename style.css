@@ -9,6 +9,7 @@
 
 :root{
   --background-main: #6F34FE;
+  --grey:rgba(99, 115, 129, 1);
 }
 
 html {
@@ -337,6 +338,18 @@ h2{
   flex-direction: column;
 }
 
+.text-container p{
+  font-weight: 400;
+  font-size:18px;
+  color: var(--grey);
+}
+
+.text-container p:nth-of-type(2){
+  font-weight: 700;
+  font-size:32px;
+  color:black;
+}
+
 .wrap-title{
   background-color: var(--background-main);
   height: 551px;
@@ -346,4 +359,9 @@ h2{
 
 .detail-work{
   padding: 342px 0 180px 0;
+  font-weight: 700;
+  font-size: 20px;
+  color: var(--background-main);
+  width: 688px;
+  margin:auto;
 }
