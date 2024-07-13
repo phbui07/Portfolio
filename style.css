@@ -358,7 +358,7 @@ h2{
 }
 
 .detail-work{
-  padding: 342px 0 180px 0;
+  padding: 342px 0 128px 0;
   font-weight: 700;
   font-size: 20px;
   color: var(--background-main);
@@ -366,24 +366,114 @@ h2{
   margin:auto;
 }
 
+/*CONTACT*/
+
 #contact{
   padding:64px;
   display: flex;
   justify-content: space-around;
   align-items: center;
-  background-color: #e1d4ff;
+  background-color: #ffffff;
+}
+
+
+.title-contact{
+  font-weight: 800;
+  font-size: 48px;
+  color: rgba(33, 43, 54, 1);
+}
+
+.title-contact-sec{
+  margin-top: 24px;
+  margin-bottom: 24px;
+}
+
+.form-section{
+  width: 564px; 
 }
 
 form{
   display: flex;
-  flex-direction: column;
-  gap: 16px;
+  width: 564px ;
+  flex-wrap: wrap;
+  gap: 24px;
 }
 
-input:hover, input:focus, input:active, input:focus-visible{
-  border: 2px solid #6F34FE !important;
+form > div > p{
+  margin-bottom: 6px;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+form > div:nth-of-type(5) > input{
+  width: 564px ;
+  height: 104px;
+  text-align: start;
+  padding-bottom: 80px;
+}
+
+input{
+  border-radius: 8px;
+  padding: 10px;
+  width: 270px;
+  height: 56px;
+  background-color: rgba(242, 242, 254, 1);
+  color: rgba(145, 158, 171, 1);
+  font-size: 16px;
+  font-weight: 400;
   outline: none;
 }
-input{
-  padding: 7px;
+
+.send-btn{
+  width: 564px;
+  height: 48px;
+  border: 1px solid none;
+  border-radius: 12px;
+  padding: 11px, 22px, 11px, 22px;
+  background-color: rgba(252, 166, 30, 1);
+  color: #fff;
+  font-size: 15px;
+  font-weight: 700;
+  outline: none;
+  cursor: pointer;
+  transition: .5s;
 }
+
+.send-btn:hover{
+  background-color: var(--background-main);
+}
+
+/*FOOTER*/
+
+footer{
+  background-color: rgba(56, 26, 127, 1);
+  height: 406px;
+  color: #fff;
+  padding: 64px;
+  margin: auto;
+}
+
+hr{
+  border: 0;
+  clear:both;
+  display:block;
+  width: 96%;               
+  background-color: var(--background-main);
+  height: 1px;
+  margin:auto;
+}
+
+footer p:nth-of-type(1){
+  font-size: 32px;
+  font-weight: 700;
+  text-align: center;
+}
+
+footer p:nth-of-type(2){
+  font-size: 16px;
+  font-weight: 400;
+  text-align: center;
+  color:rgba(145, 158, 171, 1) ;
+  margin: 22px;
+}
+
