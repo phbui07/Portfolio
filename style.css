@@ -447,10 +447,24 @@ input{
 
 footer{
   background-color: rgba(56, 26, 127, 1);
-  height: 406px;
+  height: 320px;
   color: #fff;
   padding: 64px;
   margin: auto;
+}
+
+.logo-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.logo-container > a > i::before{
+  color: #fff;
+  font-size: 32px;
+  text-align: center;
+  margin: 16px;
 }
 
 hr{
@@ -461,12 +475,14 @@ hr{
   background-color: var(--background-main);
   height: 1px;
   margin:auto;
+  margin-top: 64px;
 }
 
 footer p:nth-of-type(1){
   font-size: 32px;
   font-weight: 700;
   text-align: center;
+  margin-bottom: 64px;
 }
 
 footer p:nth-of-type(2){
