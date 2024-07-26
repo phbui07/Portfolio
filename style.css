@@ -451,7 +451,7 @@ footer{
   height: 320px;
   color: #fff;
   padding: 64px;
-  margin: auto;
+  max-width: 100%;
 }
 
 .logo-container{

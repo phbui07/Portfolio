@@ -4,4 +4,42 @@
     justify-content: center;
     align-items: center;
   }
+
+  #about-me{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+  }
+
+  .score-container{
+    flex-wrap: wrap;
+  }
+
+  .content-area{
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+  }
+
+.wrap-title{
+  position:static !important;
+}
+
+  .content-sec{
+    position: static !important;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transform: none !important;
+  }
+
+  .detail-work{
+    padding: 850px 0 0 0 !important;
+  }
+
+  #contact{
+    flex-direction: column ;
+  }
+
 }
