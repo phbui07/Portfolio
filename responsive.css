@@ -1,0 +1,7 @@
+@media only screen and (max-device-width: 768px){
+  .content{
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+  }
+}
