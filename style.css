@@ -25,17 +25,18 @@ html {
 
 .nav-bar{
   display:flex;
-  justify-content: space-between;
+  justify-content: space-around;
   padding:20px 210px;
   box-shadow: rgb(0, 0, 0, 0.12);
   background-color: white;
   position: fixed;
   z-index: 100;
   width: 100%;
+  gap:20%;
 }
 
 .nav-logo p{
-  font-size: 20px;
+  font-size: 1.125rem;
   font-weight: 600;
 }
 
@@ -48,8 +49,9 @@ html {
   cursor: pointer;
   outline:none;
   font-weight: 700;
-  font-size: 15px;
+  font-size: 1rem;
   transition:.4s;
+  width: 144px;
 }
 
 .btn-1:hover{
@@ -69,7 +71,7 @@ html {
   cursor:pointer;
   outline:none;
   font-weight: 700;
-  font-size: 15px;
+  font-size: 1rem;
   margin-top: 20px;
   transition: .4s;
 }
@@ -83,23 +85,24 @@ html {
 
 h2{
   font-weight: 600;
-  font-size: 52px;
+  font-size: 2rem;
 }
 
 .intro h1{
   color: #6F34FE;
   font-weight: 800;
-  font-size: 85px;
+  font-size: 5.3rem;
 }
 
 .intro p{
   font-weight: 400;
-  font-size: 22px;
+  font-size: 1.4rem;
   color: rgba(99, 115, 129, 1);
-  width: 552px;
 }
 
-
+.pfp-img img{
+  width: 80%;
+}
 
 #about-me{
   display: flex;
@@ -107,34 +110,33 @@ h2{
   justify-content: center;
   padding:128px 144px 128px 144px;
   background-color: rgba(242, 242, 254, 1);
+  width: 100%;
+  gap:10%;
 }
 
 .ab-img{
-  width:493px;
-  height:493px;
+  width:35%;
   border-radius: 24px;
   object-fit: fill;
-  margin-right:100px;
   background-color: rgba(242, 242, 254, 1);
 }
 
 .ab-title{
-  font-size: 48px;
+  font-size: 3rem;
   font-weight: 800;
   color: rgba(111, 52, 254, 1);
   margin-right: 5px;
 }
 
 .ab-title2{
-  font-size: 48px;
+  font-size: 3rem;
   font-weight: 800;
   color: rgba(252, 166, 30, 1);
 }
 
 .desc p{
-  font-size: 20px;
+  font-size: 1.25rem;
   font-weight: 400;
-  width:561px;
   line-height: 30px;
   color: rgba(99, 115, 129, 1);
   margin-top: 15px;
@@ -147,20 +149,19 @@ h2{
 }
 
 .cat{
-  font-size: 20px;
+  font-size: 1.25rem;
   font-weight: 400;
   color:rgba(99, 115, 129, 1);
 }
 
 .det{
-  font-size:20px;
+  font-size:1.25rem;
   font-weight: 700;
   color:rgba(33, 43, 54, 1);
 }
 
 
 #achievements{
-  width:1440px;
   height: 446px;
   text-align: center;
   display: inline;
@@ -177,7 +178,7 @@ h2{
 }
 
 .ach-title p{
-  font-size: 24px;
+  font-size: 1.5rem;
   font-weight: 600;
   color: rgba(111, 52, 254, 1);
 }
@@ -189,7 +190,7 @@ h2{
 }
 
 .ach-subtitle p{
-  font-size: 48px;
+  font-size: 3rem;
   font-weight: 800;
   color:rgba(33, 43, 54, 1);
 }
@@ -209,46 +210,45 @@ h2{
   border-radius: 16px;
   padding: 24px 32px 24px 32px;
   width: 231px;
-  height: 78px;
-  margin: 32px;
+  height: 7vh;
+  margin: 3%;
   gap:5px;
 }
 
 .score-item > span{
-  font-size: 20px;
+  font-size: 2vh;
   font-weight: 400;
   color:white;
 }
 
 .score-item > span:nth-child(2){
-  font-size: 20px;
+  font-size: 2vh;
   font-weight: 700;
 }
 
 .title-section {
-  font-size: 48px;
+  font-size: 3rem;
   font-weight: 800;
   color: #212B36;
   margin-bottom: 24px;
-  width: 528px;
-  height: 128px;
+  width: 80%;
 }
 
 .sub-title{
-  font-size: 24px;
+  font-size: 1.5rem;
   font-weight: 600;
   color: rgba(111, 52, 254, 1);
   margin-bottom: 8px;
 }
 
 #preferences{
-  height: 1440px;
-  height: 840px;
-  padding:64px;
+  width: 100%;
+  padding:10%;
   display: flex;
   justify-content: center;
   align-items: center;
   background-image: url(./public/assets/bg-2.png);
+  gap: 10%;
 }
 
 #preferences .img-area{
@@ -275,17 +275,17 @@ h2{
 }
 
 #preferences .content-area{
-  padding:24px;
   margin:auto;
   display: inline;
   text-align: left;
+  width: 100%;
 }
 
 .content-area p{
-  width: 528px;
-  height: 90px;
+  height: 50%;
+  width: 90%;
   font-weight: 400;
-  font-size: 20px;
+  font-size: 1.25rem;
   line-height: 30px;
   color: rgba(99, 115, 129, 1);
 }
@@ -295,17 +295,19 @@ h2{
 #work{
   margin: auto;
   text-align: center;
+  width:100%;
+  height: 100%;
 }
 
 #work .title-work{
-  font-size: 48px;
+  font-size: 3rem;
   font-weight: 800;
   color: rgba(255, 255, 255, 1);
-  margin-bottom: 24px;
+  margin-bottom: 1.5rem;
 }
 
 .sub-title-work{
-  font-size: 24px;
+  font-size: 1.5rem;
   font-weight: 600;
   color: rgba(255, 255, 255, 1);
   margin-bottom: 8px;
@@ -315,18 +317,17 @@ h2{
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 32px;
+  gap: 10%;
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, 0);
 }
 
-
 .art img{
-  width: 560px;
-  height: 371px;
+  width:90%;
   border-radius: 24px;
+  margin-top: 24px;
 }
 
 .text-container{
@@ -341,36 +342,38 @@ h2{
 
 .text-container p{
   font-weight: 400;
-  font-size:18px;
+  font-size:1.125rem;
   color: var(--grey);
 }
 
 .text-container p:nth-of-type(2){
   font-weight: 700;
-  font-size:32px;
+  font-size:2rem;
   color:black;
 }
 
 .wrap-title{
   background-color: var(--background-main);
-  height: 551px;
-  position: relative;
+  width:100%;
+  height: 50vh;
   padding-top: 128px;
+  position: relative;
 }
 
 .detail-work{
-  padding: 342px 0 128px 0;
+  padding: 15% 0 1.5% 0;
   font-weight: 700;
-  font-size: 20px;
+  font-size: 1.25rem;
   color: var(--background-main);
-  width: 688px;
+  width: 33%;
   margin:auto;
+  text-align: center;
 }
 
 /*CONTACT*/
 
 #contact{
-  padding:64px;
+  padding:5%;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -380,7 +383,7 @@ h2{
 
 .title-contact{
   font-weight: 800;
-  font-size: 48px;
+  font-size: 3rem;
   color: rgba(33, 43, 54, 1);
 }
 
@@ -390,24 +393,29 @@ h2{
 }
 
 .form-section{
-  width: 564px; 
+  width: 45vw; 
 }
 
 form{
   display: flex;
-  width: 564px ;
+  width: 45vw ;
   flex-wrap: wrap;
-  gap: 24px;
+  gap:2%;
+  padding: 5% 0 5% 0;
 }
 
 form > div > p{
-  margin-bottom: 6px;
-  font-size: 18px;
+  margin-bottom: 10px;
+  font-size: 1.125rem;
   font-weight: 400;
 }
 
+form > div{
+  margin-bottom: 10px;
+}
+
 form > div:nth-of-type(5) > input{
-  width: 564px ;
+  width: 45vw ;
   height: 104px;
   text-align: start;
   padding-bottom: 80px;
@@ -416,24 +424,24 @@ form > div:nth-of-type(5) > input{
 input{
   border-radius: 8px;
   padding: 10px;
-  width: 270px;
+  width: 22vw;
   height: 56px;
   background-color: rgba(242, 242, 254, 1);
   color: rgba(145, 158, 171, 1);
-  font-size: 16px;
+  font-size: 1rem;
   font-weight: 400;
   outline: none;
 }
 
 .send-btn{
-  width: 564px;
+  width: 45vw;
   height: 48px;
   border: 1px solid none;
   border-radius: 12px;
   padding: 11px, 22px, 11px, 22px;
   background-color: rgba(252, 166, 30, 1);
   color: #fff;
-  font-size: 15px;
+  font-size: 1rem;
   font-weight: 700;
   outline: none;
   cursor: pointer;
@@ -451,7 +459,7 @@ footer{
   height: 320px;
   color: #fff;
   padding: 64px;
-  max-width: 100%;
+  width: 100%;
 }
 
 .logo-container{
@@ -463,7 +471,7 @@ footer{
 
 .logo-container > a > i::before{
   color: #fff;
-  font-size: 32px;
+  font-size: 2rem;
   text-align: center;
   margin: 16px;
 }
@@ -480,14 +488,14 @@ hr{
 }
 
 footer p:nth-of-type(1){
-  font-size: 32px;
+  font-size: 2rem;
   font-weight: 700;
   text-align: center;
   margin-bottom: 64px;
 }
 
 footer p:nth-of-type(2){
-  font-size: 16px;
+  font-size: 1rem;
   font-weight: 400;
   text-align: center;
   color:rgba(145, 158, 171, 1) ;
@@ -499,7 +507,7 @@ footer p:nth-of-type(2){
   background-color: rgba(252, 166, 30, 1);
   color: #fff;
   border-radius: 50%;
-  font-size: 20px;
+  font-size: 1.25rem;
   bottom: 15px;
   right: 15px;
   padding: 10px;

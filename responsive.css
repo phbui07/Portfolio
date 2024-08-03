@@ -5,11 +5,42 @@
     align-items: center;
   }
 
+  .nav-logo{
+    display: none;
+  }
+
   #about-me{
     flex-direction: column;
+    background-color: white;
+    padding: 7% 5% 7% 5% !important;
+  }
+
+  .content{
+    display: flex;
+    justify-content: center;
+    align-self: center;
+  }
+
+  .pfp-img{
+    display: flex;
     justify-content: center;
     align-items: center;
-    background-color: white;
+    margin: 0 0 20px 0;
+  }
+
+  .intro p{
+    text-align: center;
+  }
+
+  .intro h1{
+    text-align: center;
+  }
+
+  .buttons{
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    padding: 0 0 20px 0;
   }
 
   .score-container{
@@ -17,9 +48,22 @@
   }
 
   .content-area{
-    flex-direction: column-reverse;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+    display: flex !important;
+  }
+
+  .content-area p{
+    text-align: center !important;
+  }
+
+  .title-container{
+    text-align: center;
+  }
+
+  #preferences{
+    flex-wrap: wrap;
   }
 
 .wrap-title{
@@ -35,11 +79,57 @@
   }
 
   .detail-work{
-    padding: 850px 0 0 0 !important;
+    padding: 160% 0 0 0 !important;
+    width: 80% !important;
   }
 
   #contact{
     flex-direction: column ;
   }
 
+  .form-section{
+    flex-direction: column ;
+    width: 60vw !important;
+  }
+
+  form{
+    width: 100% !important;
+  }
+
+  form > div{
+    width: 100%;
+  }
+
+  form > div >input{
+    width: 100%;
+  }
+
+  form > div:nth-of-type(5) > input{
+    width: 100% !important; 
+  }
+
+  .send-btn{
+    width: 100% !important;
+  }
+
+  .sub-title{
+    text-align: center;
+  }
+
+  h2{
+    text-align: center;
+  }
+
+  .title{
+    text-align: center;
+  }
+
+  .title-section{
+    text-align: center;
+    width:auto !important;
+  }
+
+  #preferences .content-area p{
+    text-align: center !important;
+  }
 }
