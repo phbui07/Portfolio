@@ -1,76 +1,76 @@
-@media only screen and (max-device-width: 768px){
-  .content{
+@media only screen and (max-device-width: 768px) {
+  .content {
     flex-direction: column-reverse;
     justify-content: center;
     align-items: center;
   }
 
-  .nav-logo{
+  .nav-logo {
     display: none;
   }
 
-  #about-me{
+  #about-me {
     flex-direction: column;
     background-color: white;
     padding: 7% 5% 7% 5% !important;
   }
 
-  .content{
+  .content {
     display: flex;
     justify-content: center;
     align-self: center;
   }
 
-  .pfp-img{
+  .pfp-img {
     display: flex;
     justify-content: center;
     align-items: center;
     margin: 0 0 20px 0;
   }
 
-  .intro p{
+  .intro p {
     text-align: center;
   }
 
-  .intro h1{
+  .intro h1 {
     text-align: center;
   }
 
-  .buttons{
+  .buttons {
     display: flex;
     justify-content: center;
     align-self: center;
     padding: 0 0 20px 0;
   }
 
-  .score-container{
+  .score-container {
     flex-wrap: wrap;
   }
 
-  .content-area{
+  .content-area {
     flex-direction: column;
     justify-content: center;
     align-items: center;
     display: flex !important;
   }
 
-  .content-area p{
+  .content-area p {
     text-align: center !important;
   }
 
-  .title-container{
+  .title-container {
     text-align: center;
   }
 
-  #preferences{
+  #preferences {
     flex-wrap: wrap;
   }
 
-.wrap-title{
-  position:static !important;
-}
+  .wrap-title {
+    position: static !important;
+  }
 
-  .content-sec{
+  .content-sec {
     position: static !important;
     flex-direction: column;
     justify-content: center;
@@ -78,58 +78,70 @@
     transform: none !important;
   }
 
-  .detail-work{
+  .detail-work {
     padding: 160% 0 0 0 !important;
     width: 80% !important;
   }
 
-  #contact{
-    flex-direction: column ;
+  #contact {
+    flex-direction: column;
   }
 
-  .form-section{
-    flex-direction: column ;
+  .form-section {
+    flex-direction: column;
     width: 60vw !important;
   }
 
-  form{
+  form {
     width: 100% !important;
   }
 
-  form > div{
+  form > div {
     width: 100%;
   }
 
-  form > div >input{
+  form > div > input {
     width: 100%;
   }
 
-  form > div:nth-of-type(5) > input{
-    width: 100% !important; 
-  }
-
-  .send-btn{
+  form > div:nth-of-type(5) > input {
     width: 100% !important;
   }
 
-  .sub-title{
+  .send-btn {
+    width: 100% !important;
+  }
+
+  .sub-title {
     text-align: center;
   }
 
-  h2{
+  h2 {
     text-align: center;
   }
 
-  .title{
+  .title {
     text-align: center;
   }
 
-  .title-section{
+  .title-section {
     text-align: center;
-    width:auto !important;
+    width: auto !important;
   }
 
-  #preferences .content-area p{
+  #preferences .content-area p {
     text-align: center !important;
+  }
+
+  .art-row {
+    flex-direction: column !important;
+    justify-content: center;
+    align-items: center;
+  }
+  .art-row p {
+    color: black !important;
+  }
+  .art-footer {
+    padding-top: 0 !important;
   }
 }
